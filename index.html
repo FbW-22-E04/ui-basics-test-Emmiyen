@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>UI-Basics Test</title>
-
+    <link rel="stylesheet" href="style.css" />
     <style>
       /* default style for test */
-      li {
-        margin-bottom: 10px;
-      }
+    
     </style>
   </head>
 
@@ -25,35 +23,35 @@
         <h3>List Section</h3>
         <ul>
           <li>List Item</li>
-          <li>List Item</li>
+          <li class="list-item">List Item</li>
           <li>List Item</li>
         </ul>
       </section>
 
       <!-- Images Section -->
       <section class="images">
-        <h3>Images Section</h3>
+        <h3 class="h3class">Images Section</h3>
         <div class="image">
           <img height="200" src="images/ocean.png" alt="Ocean" />
+          <img height="200" src="images/mountain.jpg" alt="Mountain" />
+          <img height="200" src="images/surfer.jpg" alt="Surfer" />
+          <div class="tree-img">
+            <a target="_blank" href="https://caseytrees.org/tree-species/">
+              <img height="200" src="/images/tree.jpg" alt="tree" />
+            </a>
+          </div>
         </div>
-        <img height="200" src="images/mountain.jpg" alt="Mountain" />
-        <img height="200" src="images/surfer.jpg" alt="Surfer" />
       </section>
 
       <!-- Link Section -->
       <section class="links">
-        <h3>Link Section</h3>
+        <h3 class="h3class">Link Section</h3>
+        <a
+          href="https://i.pinimg.com/originals/db/2a/e5/db2ae52a2d03a070f1d44aa27144e3cc.jpg"
+          target="_blank"
+          >Fav book</a
+        >
       </section>
-
-      <!-- Footer -->
-      <footer>
-        <h3>Footer Links</h3>
-        <ul>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-          <li><a href="#">Link</a></li>
-        </ul>
-      </footer>
 
       <!-- Box Model Section -->
       <section class="box-model">
@@ -67,8 +65,21 @@
           sequi harum excepturi pariatur, aut illo numquam. Officia corporis
           minima libero laudantium ab blanditiis itaque?
         </p>
+
         <img height="200" src="images/valley.jpg" alt="Mountain Image" />
       </section>
+      <!-- Footer -->
+
+      <footer>
+        <h3 class="h3class">Footer Links</h3>
+        <div class="footer">
+          <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
